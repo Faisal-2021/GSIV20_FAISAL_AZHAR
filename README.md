@@ -1,29 +1,70 @@
-# GSIV20_FAISAL_AZHAR
-Findz Movie Challenge
+# Getting Started with Create React App
 
-**A.**
-**Instruction to run a code**
-**step 1**:Download entire folder/all files from github.
-**step 2**:Goto root folder where package.json file present
-**step 3**:Open terminal run command : "npm install " all the dependencies will be installed.
-**step 4**:npm start //project will start running on your localhost:3000
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**B.**
-List page that shows all the movie card 
-I used a grid to display all the movieCard inside it beacause grid is easy and I can control the grid-column easily at every screen size it provide more convenience to me.
-I used a **TAILWINDCss** to design all the components because tailwind gives great control and it is easy and Rapidly website build Css tools.
-I design a component acording to the given challenge and add some more functionality to make better user experience,these additional functionality are :
-(i).  When user hover over a Movie Card then Card will be zoomIn and movie title color change to look more attractive on eye.
-(ii). Improved the Overall Card design rating color change based on movie rating if rating >5 then color is 'GREEN' if and if rating < 5 color is 'RED' , also rating will rotate         on focus to look more good and user notice rating off the movie.
-(iii).On movie card user can read complete overview of the movie with the help of scroll without open the detail of the movie that functionality provide better user experience to       the users.
-(iv). When user scroll many pages and wants to go on top of the page then there is a button that scroll to the top of the website .
+## Available Scripts
 
-Used a useNavigate() to navigate user to the movieDetail page and use it's State to pass movieId props to the Detail page.
-On movie Detail page useLocation sis used to access the state .
+In the project directory, you can run:
 
-**C.**
-If i have more time then i will first improve user experience and provide more functionality to user to access the website eaisly.
-I will provide the sorting functionality based on new,old,popularity ,etc.
+### `npm start`
 
-Screenshot Folder contains screenShot of Movie List and Movie Detail Page.
-I am completely change the UI you will be amazed after seeing this.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
